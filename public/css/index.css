@@ -16,13 +16,15 @@ body {
     box-sizing: border-box;
     z-index: 100;
     word-break: break-word;
+    background-color: #e9eef5;
+    background-image: linear-gradient(135deg, #e9eef5 0%, #bbbbc7 100%);
     /* padding: 5px 5px 5px 5px; */
 }
 
 .container
 {
     z-index: 100;
-    background: #ffffff;
+    /* background: #ffffff; */
     padding: 2px 16px;
     width: 100%;
 }
