@@ -31,7 +31,7 @@ body {
 
 .card:hover
 {
-    box-shadow: 0 8px 16px 0 rgb(242, 242, 242);
+    box-shadow: 0 4px 8px 0 rgb(242, 242, 242);
 }
 
 .column {
