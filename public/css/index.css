@@ -10,7 +10,7 @@ body {
 .card
 {
     background: #ffffff;
-    box-shadow: 0 4px 8px 0 rgb(242, 242, 242);
+    /* box-shadow: 0 4px 8px 0 rgb(242, 242, 242); */
     transition: 0.3s;
     border-radius: 5px;
     box-sizing: border-box;
