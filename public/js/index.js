@@ -12,3 +12,8 @@ function digital_clock()
 {
     window.open('https://mordern-clock.netlify.app/', '_blank');
 }
+
+function color_code()
+{
+    window.open('https://random-color-code-generator.netlify.app/', '_blank');
+}
