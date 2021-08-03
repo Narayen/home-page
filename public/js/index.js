@@ -31,17 +31,10 @@ function onload_sendEmail()
         if (request.readyState == 4 && request.status == 200)
         {
             js_onSuccess();
-        } 
-        else
+        } else
+        if(request.readyState == 4)
         {
-            if(request.readyState == 4)
-            {
-                js_onError(request.response);
-            }
-            else
-            {
-                console.log('error');
-            }
+            js_onError(request.response);
         }
     };
 
@@ -64,11 +57,13 @@ function onload_sendEmail()
 function js_onSuccess() {
     // remove this to avoid redirect
     // window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+    console.log('success');
 }
 
 function js_onError(error) {
     // remove this to avoid redirect
     // window.location = window.location.pathname + "?message=Email+could+not+be+sent.&isError=1";
+    console.log('error');
 }
 
 function toParams(data_js) {
