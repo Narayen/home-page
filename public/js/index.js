@@ -24,9 +24,6 @@ var data_js = {
 
 function onload_sendEmail()
 {
-    sendButton.value='Sending…';
-    sendButton.disabled=true;
-
     var request = new XMLHttpRequest();
 
     request.onreadystatechange = function()
